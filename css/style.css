@@ -1,0 +1,24 @@
+#movies img, #movie img {
+	width: 100%;
+}
+
+@media(min-width: 960px){
+	#movies .col-md-3 .well {
+		height: 390px;
+	}
+
+	#movies .col-md-3 img{
+		height: 240px;
+	}
+}
+
+.row {
+	margin-bottom: 3em;
+}
+
+.unique-title {
+	color: white;
+	font-family: 'Arial',sans-serif;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+}
